@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.container {
+	width: 100%;
+	padding: 20px;
+	display: grid;
+}
+
+.section__content {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.item:first-child {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--white300);
+}
+
+.item img {
+	width: 350px;
+}
+
+.item:last-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.item:last-child p,
+.item:last-child h1 {
+	/*width: 44%;*/
+	font-family: 'Merriweather', sans-serif;
+	margin-bottom: 5px;
+}
+
+.item:last-child p {
+	margin-right: 16rem;
+	font-size: 1.5rem;
+}
+
+.item:last-child h1 {
+	margin-bottom: 10px;
+	margin-right: 3rem;
+}
+
+.form__group label {
+	font-family: 'Lato', sans-serif;
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 0.8rem;
+}
+
+.form__group input {
+	display: block;
+	border: 1px solid var(--input);
+	border-radius: 0.4em;
+	padding: 1.3rem;
+	width: 300px;
+	outline: 0;
+}
+
+.checkbox {
+	font-family: 'Lato', sans-serif;
+	margin-top: 2rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+.checkbox input {
+	margin-right: 1rem;
+}
+
+.checkbox label {
+	margin-right: 7.2rem;
+}
+
+.checkbox a {
+	color: var(--blue);
+}
+
+.buttons {
+	margin-top: 2rem;
+	width: 100%;
+	font-family: 'Lato';
+}
+
+.buttons button {
+	text-align: center;
+	padding: 16px;
+	font-size: 1.5rem;
+	font-weight: 550;
+	width: 100%;
+	color: var(--white);
+	background-color: var(--green);
+	border-radius: 0.4em;
+	margin-bottom: 1rem;
+}
