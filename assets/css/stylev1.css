@@ -3,6 +3,7 @@
 
 .container {
 	width: 100%;
+	padding: 20px;
 	display: grid;
 }
 
@@ -37,18 +38,13 @@
 }
 
 .item:last-child p {
-	margin-right: 21rem;
+	margin-right: 16rem;
 	font-size: 1.5rem;
 }
 
 .item:last-child h1 {
 	margin-bottom: 10px;
-	margin-right: 8rem;
-}
-
-.form {
-	padding-top: 40px;
-	width: 55%;
+	margin-right: 3rem;
 }
 
 .form__group label {
@@ -62,8 +58,8 @@
 	display: block;
 	border: 1px solid var(--input);
 	border-radius: 0.4em;
-	padding: 16px;
-	width: 100%;
+	padding: 1.3rem;
+	width: 300px;
 	outline: 0;
 }
 
@@ -81,7 +77,7 @@
 }
 
 .checkbox label {
-	margin-right: 14rem;
+	margin-right: 7.2rem;
 }
 
 .checkbox a {
@@ -91,42 +87,19 @@
 .buttons {
 	margin-top: 2rem;
 	width: 100%;
-	text-align: center;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Lato';
 }
 
 .buttons button {
 	text-align: center;
-	padding: 16px 10px;
-	font-size: 1.7rem;
+	padding: 16px;
+	font-size: 1.5rem;
+	font-weight: 550;
 	width: 100%;
 	color: var(--white);
+	background-color: var(--green);
 	border-radius: 0.4em;
 	margin-bottom: 1rem;
-}
-
-.login {
-	background-color: var(--green);
-}
-
-.google {
-	background-color: var(--dark);
-	background-image: url(../image/google.png);
-	background-size: 20px;
-	background-repeat: no-repeat;
-	background-position: 40px 15px;
-}
-
-span {
-	font-family: 'Marriweather', sans-serif;
-	display: block;
-	text-align: center;
-	padding-top: 10rem;
-	font-size: 1.5rem;
-}
-
-span a {
-	color: var(--blue);
 }
 
 @media (max-width: 768px) {
