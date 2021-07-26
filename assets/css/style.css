@@ -153,7 +153,7 @@ span a {
 	color: var(--blue);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 348px){
 	.item:first-child {
 		display: none;
 	}
@@ -183,5 +183,9 @@ span a {
 
 	.item:last-child h1 {
 		font-size: 2rem;
+	}
+
+	.checkbox {
+		font-size: 1.1rem;
 	}
 }
