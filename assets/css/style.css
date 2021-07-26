@@ -64,7 +64,19 @@
 	border-radius: 0.4em;
 	padding: 16px;
 	width: 100%;
-	outline: 0;
+	outline: none;
+}
+
+.form__group:last-child input {
+	position: absolute;
+	width: 100%;
+}
+
+.form__group .lock {
+	width: 20px;
+	position: relative;
+	bottom: 35px;
+	left: 90%;
 }
 
 .checkbox {
