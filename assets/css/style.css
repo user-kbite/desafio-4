@@ -42,7 +42,7 @@
 }
 
 .item:last-child h1 {
-	margin-bottom: 10px;
+	margin-bottom: 5rem;
 	margin-right: 8rem;
 }
 
@@ -175,12 +175,8 @@ span a {
 		background-position: 50px 15px;
 	}
 
-	.item:last-child p {
-		font-size: 1.2rem;
-	}
-
 	.item:last-child h1 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 
 	.checkbox {
