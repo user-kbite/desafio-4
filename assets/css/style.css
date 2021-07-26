@@ -157,4 +157,31 @@ span a {
 	.item:first-child {
 		display: none;
 	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.form {
+		padding: 40px 0;
+		width: 90%;
+	}
+
+	.google {
+		background-color: var(--dark);
+		background-image: url(../image/google.png);
+		background-size: 20px;
+		background-repeat: no-repeat;
+		background-position: 20px 15px;
+	}
+
+	.item:last-child p {
+		font-size: 1.2rem;
+	}
+
+	.item:last-child h1 {
+		font-size: 2rem;
+	}
 }
