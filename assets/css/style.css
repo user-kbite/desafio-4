@@ -82,6 +82,7 @@
 .checkbox {
 	font-family: 'Lato', sans-serif;
 	margin-top: 2rem;
+	margin-bottom: 3rem;
 	font-size: 1.3rem;
 	font-weight: bold;
 	display: flex;
@@ -180,6 +181,6 @@ span a {
 	}
 
 	.checkbox {
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 	}
 }
