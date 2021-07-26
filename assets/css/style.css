@@ -172,7 +172,7 @@ span a {
 		background-image: url(../image/google.png);
 		background-size: 20px;
 		background-repeat: no-repeat;
-		background-position: 20px 15px;
+		background-position: 15px;
 	}
 
 	.item:last-child p {
