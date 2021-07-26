@@ -125,6 +125,10 @@
 	background-position: 40px 15px;
 }
 
+.google:hover {
+	background-color: #0b0d12;
+}
+
 span {
 	font-family: 'Marriweather', sans-serif;
 	display: block;
