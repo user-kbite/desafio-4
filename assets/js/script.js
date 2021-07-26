@@ -1,10 +1,14 @@
-const lock = document.querySelector(".lock");
+const input = document.getElementById("senha");
+const lock = document.querySelector(".key");
 
 lock.addEventListener("click", function() {
-	if (lock.src === "./assets/image/lock.png") {
-		lock.src = "./assets/image/lock.png"
+	if (lock.classList.contains("fa-lock")) {
+		input.type = "text";
+		lock.classList.remove("fa-lock");
+		lock.classList.add("fa-lock-open");
 	} else {
-		lock.src = "./assets/image/unlock.png"
+		input.type = "password";
+		lock.classList.remove("fa-lock-open");
+		lock.classList.add("fa-lock");
 	}
-	alert(lock.src)
 })
