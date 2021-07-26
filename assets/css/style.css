@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .container {
@@ -47,7 +47,7 @@
 }
 
 .form {
-	padding-top: 40px;
+	padding-top: 60px;
 	width: 55%;
 }
 
@@ -90,8 +90,8 @@
 }
 
 .checkbox__content {
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .checkbox input {
@@ -106,12 +106,12 @@
 	margin-top: 2rem;
 	width: 100%;
 	text-align: center;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Lato';
 }
 
 .buttons button {
 	text-align: center;
-	padding: 16px 10px;
+	padding: 16px 50px;
 	font-size: 1.7rem;
 	width: 100%;
 	color: var(--white);
@@ -140,7 +140,7 @@
 }
 
 span {
-	font-family: 'Marriweather', sans-serif;
+	font-family: 'Lato', sans-serif;
 	display: block;
 	text-align: center;
 	padding-top: 10rem;
@@ -172,7 +172,7 @@ span a {
 		background-image: url(../image/google.png);
 		background-size: 20px;
 		background-repeat: no-repeat;
-		background-position: 15px;
+		background-position: 50px 15px;
 	}
 
 	.item:last-child p {
