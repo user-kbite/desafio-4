@@ -86,18 +86,11 @@
 	font-weight: bold;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .checkbox input {
 	margin-right: 1rem;
-}
-
-.checkbox input:checked {
-	background-color: var(--input) !important;
-}
-
-.checkbox label {
-	margin-right: 14rem;
 }
 
 .checkbox a {
