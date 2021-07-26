@@ -80,6 +80,10 @@
 	margin-right: 1rem;
 }
 
+.checkbox input:checked {
+	background-color: var(--input) !important;
+}
+
 .checkbox label {
 	margin-right: 14rem;
 }
