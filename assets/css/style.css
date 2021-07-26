@@ -182,6 +182,10 @@ span a {
 }
 
 @media (max-width: 400px) {
+	.item:first-child {
+		display: none;
+	}
+	
 	.google {
 
 		background-position: 30px 15px;
