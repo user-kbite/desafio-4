@@ -152,7 +152,7 @@ span a {
 	color: var(--blue);
 }
 
-@media (max-width: 768px) and (min-width: 348px){
+@media (max-width: 768px) and (min-width: 401px){ 
 	.item:first-child {
 		display: none;
 	}
@@ -169,10 +169,6 @@ span a {
 	}
 
 	.google {
-		background-color: var(--dark);
-		background-image: url(../image/google.png);
-		background-size: 20px;
-		background-repeat: no-repeat;
 		background-position: 50px 15px;
 	}
 
@@ -183,4 +179,12 @@ span a {
 	.checkbox {
 		font-size: 1.3rem;
 	}
+}
+
+@media (max-width: 400px) {
+	.google {
+
+		background-position: 30px 15px;
+	}
+
 }
