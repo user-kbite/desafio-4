@@ -113,6 +113,10 @@
 	background-color: var(--green);
 }
 
+.login:hover {
+	background-color: #01873f;
+}
+
 .google {
 	background-color: var(--dark);
 	background-image: url(../image/google.png);
