@@ -89,6 +89,11 @@
 	justify-content: space-between;
 }
 
+.checkbox__content {
+        display: flex;
+        align-items: center;
+}
+
 .checkbox input {
 	margin-right: 1rem;
 }
