@@ -185,10 +185,27 @@ span a {
 	.item:first-child {
 		display: none;
 	}
-	
-	.google {
 
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.form {
+		padding: 40px 0;
+		width: 90%;
+	}
+
+	.google {
 		background-position: 30px 15px;
 	}
 
+	.item:last-child h1 {
+		font-size: 2.5rem;
+	}
+
+	.checkbox {
+		font-size: 1.3rem;
+	}
 }
