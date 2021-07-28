@@ -69,7 +69,7 @@
 	outline: none;
 }
 
-.form__group input:after {
+.form__group input:hover {
        outline: 1px solid var(--input);
 }
 
