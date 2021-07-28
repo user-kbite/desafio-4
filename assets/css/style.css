@@ -67,7 +67,8 @@
 	padding: 16px;
 	width: 100%;
 	outline: none;
-}.
+}
+
 .form__group input:after {
        outline: 1px solid var(--input);
 }
