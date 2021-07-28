@@ -71,6 +71,7 @@
 
 .form__group input:hover {
        outline: 1px solid var(--input);
+       border-radius: 0.4em;
 }
 
 .form__group:last-child input {
