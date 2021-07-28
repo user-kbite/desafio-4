@@ -38,7 +38,7 @@
 
 .item:last-child p {
 	margin-right: 21rem;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 .item:last-child h1 {
@@ -222,7 +222,7 @@ span a {
 		background-position: 50px 15px;
 	}
         .item:last-child h1 {
-	       font-size: 2.2rem;
+	       font-size: 2.1rem;
         }
 
 	.checkbox {
